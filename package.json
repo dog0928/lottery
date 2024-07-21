@@ -1,0 +1,27 @@
+{
+  "name": "lottery",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dog0928/lottery"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://opensource.org/license/mit"
+    }
+  ],
+  "author": "dog0928",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
