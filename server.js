@@ -31,5 +31,5 @@ app.get('/lottery', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
+    console.log(`Server is running http://localhost:${port}/`);
 });
